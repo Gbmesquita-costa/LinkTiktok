@@ -1,6 +1,5 @@
-import { BsWhatsapp } from "react-icons/bs"
-
 import reactLogo from './assets/react.svg'
+import WhatsapIcon from "/icon.webp"
 import './App.css'
 
 function App() {
@@ -16,20 +15,22 @@ function App() {
       </div>
       <h1>Links</h1>
       <div className="card">
-        <a href="https://impetodg.com/" style={{ textDecoration: "none",  }}>
-          <p>
-            Link da loja <code> ÍMPETO</code> 
-          </p>
-        </a>
+          <a href="https://impetodg.com/">
+            <img src={WhatsapIcon} alt="whatsap" style={{ width: "24px", borderRadius: "5px", marginRight: "10px" }}/>
+            <p>
+              Link da loja <code> ÍMPETO</code> 
+            </p>
+          </a>
+       
         <a href="https://chat.whatsapp.com/LIlJHBptl1vInLbRLDhBR6">
-          <p>
-            <BsWhatsapp color="green"/> 
+          <img src={WhatsapIcon} alt="whatsap" style={{ width: "24px", borderRadius: "5px", marginRight: "10px" }}/>
+          <p> 
             Link do grupo do Whatsapp de <code> TBATE</code> 
           </p>
         </a>
         <a href="https://chat.whatsapp.com/LiiwRR0MOkw3UmPT9hetyq">
-          <p>
-            <BsWhatsapp color="green"/> 
+          <img src={WhatsapIcon} alt="whatsap" style={{ width: "24px", borderRadius: "5px", marginRight: "10px" }}/>
+          <p> 
             Link do grupo do Whatsapp da <code> ÍMPETO</code> 
           </p>
         </a>
