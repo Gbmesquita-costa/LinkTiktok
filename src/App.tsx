@@ -15,7 +15,7 @@ function App() {
       </div>
       <h1>Links</h1>
       <div className="card">
-          <a href="https://impetodg.com/">
+          <a href="https://impetodg.com/collections/geek">
             <img src={WhatsapIcon} alt="whatsap" style={{ width: "24px", borderRadius: "5px", marginRight: "10px" }}/>
             <p>
               Link da loja <code> ÍMPETO</code> 
